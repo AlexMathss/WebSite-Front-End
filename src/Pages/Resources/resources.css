@@ -1,0 +1,25 @@
+.resources-container {
+    width: 1181px;
+    height: 856px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.resources-content {
+    height: 716px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resources-card {
+    height: 348px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

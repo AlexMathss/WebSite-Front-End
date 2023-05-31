@@ -1,0 +1,85 @@
+.container-home {
+    width: 100%;
+    height: 724px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    margin-bottom: 20px
+}
+
+.resume-content {
+    width: 1183px;
+    height: 388.16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume {
+    width: 557px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.resume h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.resume p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.button-content {
+    width: 433px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-start {
+    background-color: #1361F5;
+    width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button-start:hover {
+    opacity: 0.7;
+}
+
+.button-request {
+    width: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #1361F5;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button-request:hover{
+    border: 1px solid #1361F5;
+}
+
+.benefits-content {
+    height: 170px;
+    width: 1183px;
+    display: flex;
+    align-items: center;
+    
+}
