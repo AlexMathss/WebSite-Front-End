@@ -8,17 +8,18 @@ import Publicidade from './Pages/Publicidade';
 import Resources from './Pages/Resources';
 import Footer from './component/Footer';
 
+
 export default function App() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
       <Home/>
-      <Features/>
+      {/* <Features/>
       <Integration/>
       <Customers/>
       <Publicidade/>
       <Resources/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }

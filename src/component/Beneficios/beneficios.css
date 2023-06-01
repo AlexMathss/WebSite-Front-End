@@ -47,3 +47,27 @@
     font-size: 18px;
     font-weight: bolder;
 }
+
+
+@media(max-width: 833px){
+    .box-container {
+        height: 180px;
+    }
+
+    .box-content {
+        height: 140px;
+    }
+}
+
+@media(max-width: 687px){
+    .box-container {
+        width: 90%;
+        height: 70px;
+    }
+
+    .box-content {
+        flex-direction: row;
+        height: 100%;
+        align-items: center;
+    }
+}
