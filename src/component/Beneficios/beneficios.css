@@ -48,6 +48,10 @@
     font-weight: bolder;
 }
 
+.normal-container {
+    display: block;
+}
+
 
 @media(max-width: 833px){
     .box-container {
@@ -70,4 +74,27 @@
         height: 100%;
         align-items: center;
     }
+}
+
+@media(max-width: 545px) {
+    .box-container {
+        height: 120px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-content {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 381px) {
+    .box-container {
+        height: 140px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
 }

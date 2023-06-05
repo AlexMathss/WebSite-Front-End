@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: orange;
 }
 
 .menu-container {
@@ -72,4 +71,20 @@
     border-radius: 5px;
     font-size: 16px;
     color: #FFF;
+}
+
+.button-menu {
+    display: none;
+}
+
+@media(max-width: 985px) {
+    .menu {
+        display: none;
+    }
+    .button-menu {
+        display: flex;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
 }

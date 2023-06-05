@@ -5,28 +5,28 @@ export default function Home(){
     return(
         <div className="container-home">
             
-            <div className="resume-content">
-                <div className="resume">
+            <div className='resume-content'>
+                <div className='resume'>
                     <h1>TechVantage <br/>Solutions</h1>
                     <p>
                         Empowering Businesses with Innovative Solutions for Success and
                         Growth. Streamline workflows, foster collaboration, and unlock your true
                         potential with TechVantage. Experience the future of work today.
                     </p>
-                    <div className="button-content">
-                        <div className="button-start">
+                    <div className='button-content'>
+                        <button className='button-start'>
                             Start Your Free Trial Now
-                        </div>
-                        <div className="button-request">
+                        </button>
+                        <button className='button-request'>
                             Request a demo
-                        </div>
+                        </button>
                     </div>
                 </div>
-                <img src="./Hero.png" alt="Publicidade Imagem"/>
+                <img src='./Hero.png' alt='Publicidade Imagem'/>
             </div>
 
-            <div className="benefits-content">
-                <Beneficios 
+            <div className='benefits-content'>
+                <Beneficios
                     title={'Increased Efficiency'}
                     content={'Streamline your workflow and save time'}
                     icone={<img src='./clock.png' alt='relogio'/>}
@@ -38,7 +38,7 @@ export default function Home(){
                 />
                 <Beneficios 
                     title={'Scalabillity'}
-                    content={'Adapt to growing business needs samlessly.'}
+                    content={'Adapt to growing business need samlessly.'}
                     icone={<img src='./graph.png' alt='bag'/>}
                 />
                 <Beneficios 

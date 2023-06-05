@@ -6,7 +6,9 @@ export default function Beneficios({title, content, icone}){
         <div className='box-container'>
             <div className='box-content'>
                 <span>{title}</span>
-                <p className='normal'>{content}</p>
+                <div className='normal-container'>
+                    <p className='normal'>{content}</p>
+                </div>
                 <div className='icon-container'>
                     {icone}
                 </div>
