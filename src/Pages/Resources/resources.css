@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+   
 }
 
 .resources-card {
@@ -22,4 +23,32 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+
+
+/* Responsividade */
+
+@media(max-width: 1190px){
+    .resources-container {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1190px){
+    .resources-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 764px){
+    .resources-card {
+        display: none;
+    }
+}
+
+@media (max-width: 461px){
+    .resources-container h2 {
+        text-align: center;
+    }
 }

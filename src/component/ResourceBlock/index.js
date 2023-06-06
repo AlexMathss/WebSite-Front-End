@@ -18,6 +18,8 @@ export default function ResourceBlock({genero1, genero2, title, imagem}){
                     Read More
                 </button>
             </div>
+            
         </div>
+        
     )
 }

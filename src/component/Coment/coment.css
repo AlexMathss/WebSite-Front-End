@@ -1,0 +1,83 @@
+.perfil-container {
+    width: 378px;
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.perfil-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coment {
+    width: 319px;
+    height: 348px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 4px 4px rgba(0,0,0,15%);
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.coment-container {
+    width: 319px;
+    height: 217px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coment-title {
+    height: 123px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+    text-align: center;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.coment-company {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+    color: #D9D9D9;
+    font-weight: bold;
+}
+
+.coment-assinatura {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 1522px){
+    .perfil-container {
+        margin-right: 15px;
+    }
+}

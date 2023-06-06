@@ -57,3 +57,30 @@
 .readmore:hover {
     opacity: 0.5;
 }
+
+
+/* Responsividade  */
+
+@media(max-width: 1056px){
+    .container-card {
+        width: 248px;
+    }
+    .container-card img {
+        height: 160px;
+    }
+
+    .referencias {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .genero-container button {
+        font-size: 10px
+    }
+}
+
+/* @media(max-width: 764px){
+    .container-card {
+      display: none;   
+    }
+} */

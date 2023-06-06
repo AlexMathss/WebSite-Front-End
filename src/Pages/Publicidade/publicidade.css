@@ -41,3 +41,27 @@
 .publicidade-content button:hover {
     opacity: 0.8;
 }
+
+/* Responsividade */
+
+@media(max-width: 772px){
+    .publicidade-content {
+        width: 100%;
+    }
+}
+
+@media(max-width: 518px){
+    .publicidade-content span {
+        text-align: center;
+    }
+}
+
+@media(max-width: 332px){
+    .publicidade-content {
+        height: 320px;
+    }
+
+    .publicidade-content button {
+        width: 100%;
+    }
+}

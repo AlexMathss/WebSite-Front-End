@@ -1,0 +1,59 @@
+/* Card Responsividade */
+
+.container-responsivo {
+    height: 750px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-responsividade {
+    background-color: #fff;
+    height: 110px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px 4px rgba(0, 0, 0, 15%);
+}
+
+.card-responsividade img {
+    height: 100%;
+    width: 40%
+}
+
+.description-responsividade {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.description-responsividade span {
+    line-height: 20px;
+    font-size: 16px
+}
+
+
+/* Responsividade */
+
+@media(max-width: 505px){
+    .readmore {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 414px){
+    .description-responsividade {
+        height: 90%;
+    }
+}
+
+@media(max-width: 764px){
+    .container-responsivo {
+        display: flex;
+    }
+}

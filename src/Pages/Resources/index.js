@@ -1,4 +1,5 @@
 import ResourceBlock from '../../component/ResourceBlock';
+import ResourseResponsivo from '../../component/ResourseResponsivo';
 import './resources.css';
 
 export default function Resources(){
@@ -45,7 +46,9 @@ export default function Resources(){
                         genero2={'Social Media Marketing'}
                         title={'Mastering Social Media Marketing: A Comprehensive Guide'}
                     />
-                </div>  
+                </div>
+                {/* Responsividade */}
+                <ResourseResponsivo/>
             </div>
         </div>
     )

@@ -1,7 +1,8 @@
-import Perfil from '../../component/Perfil'
 import './customers.css'
+import Coment from '../../component/Coment'
 
 export function Customers(){
+
     return (
         <div className='container-customers'>
             <div className='title-container'>
@@ -11,26 +12,27 @@ export function Customers(){
                     have to say about their experience with TechVantage.
                 </p>
             </div>
+
             <div className='container-coments'>
-                <Perfil
+                <Coment
                     imagem={<img src='./perfil3.png'/>}
                     coment={'TechVantage has transformed the way we work. It has streamlined our processes and improved collaboration across teams.Highly recommended!'}
                     company={'ABC Company'}
                     assinatura={'John Smith, CEO'}
                 />
-                <Perfil
+                <Coment
                     imagem={<img src='./perfil2.png'/>}
                     coment={'Weve been using TechVantage for months now, and it has become an indispensable tool for our business. The seamless communication and task management features have boosted our productivity significantly.'}
                     company={'DEF Corporation'}
                     assinatura={'Emily Johnson, Marketing Manager'}
                 />
-                <Perfil
+                <Coment
                     imagem={<img src='./perfil1.png'/>}
                     coment={'TechVantages powerful analytics have given us invaluable insights into our business performance. The data visualization and reporting capabilities are exceptional, helping us make data-driven decisions with confidence.'}
                     company={'GHI Industries'}
                     assinatura={'Michael Chen, CFO'}
                 />
-                <Perfil
+                <Coment
                     imagem={<img src='./perfil4.png'/>}
                     coment={'TechVantage has transformed the way we work. It has streamlined our processes and improved collaboration across teams. Highly recommended!'}
                     company={'ABC Company'}
