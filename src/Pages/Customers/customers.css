@@ -61,3 +61,27 @@
 .awards-card p {
     font-size: 18px;
 }
+
+@media (max-width: 1564px){
+    .container-customers {
+        width: 100%;
+    }
+}
+
+@media (max-width: 784px){
+    .title-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 784px){
+    .title-container {
+        text-align: center;
+    }
+}
+
+@media (max-width: 404px){
+    .title-container {
+        height: 180px;
+    }
+}

@@ -1,3 +1,4 @@
+import LogoMarca from '../../component/LogoMarca';
 import './integration.css';
 
 export default function Integration(){
@@ -16,26 +17,21 @@ export default function Integration(){
                     </button>
                 </div>
                 <div className='container-logomarcas'>
-                    <div className='container-grupo1'>
-                        <img src='./gp1.png'/>
-                        <img src='./gp2.png'/>
-                        <img src='./gp3.png'/>
-                    </div>
-                    <div className='container-grupo2'>
-                        <img src='./gp4.png'/>
-                        <img src='./gp5.png'/>
-                        <img src='./gp6.png'/>
-                    </div>
-                    <div className='container-grupo1'>
-                        <img src='./gp7.png'/>
-                        <img src='./gp8.png'/>
-                        <img src='./gp9.png'/>
-                    </div>
-                    <div className='container-grupo2'>
-                        <img src='./gp10.png'/>
-                        <img src='./gp11.png'/>
-                        <img src='./gp4.png'/>
-                    </div>
+                    <LogoMarca
+                        logo1={<img src='./gp1.png'/>}
+                        logo2={<img src='./gp2.png'/>}
+                        logo3={<img src='./gp3.png'/>}
+                    />
+                    <LogoMarca
+                        logo1={<img src='./gp3.png'/>}
+                        logo2={<img src='./gp4.png'/>}
+                        logo3={<img src='./gp5.png'/>}
+                    />
+                    <LogoMarca
+                        logo1={<img src='./gp6.png'/>}
+                        logo2={<img src='./gp7.png'/>}
+                        logo3={<img src='./gp8.png'/>}
+                    />
                 </div>
             </div>
         </div>

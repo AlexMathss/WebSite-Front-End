@@ -36,3 +36,19 @@
 .funcionalidade-container button:hover {
     opacity: 0.8;
 }
+
+/* Responsividade */
+
+@media(max-width: 634px){
+    .funcionalidade-container {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width: 248px){
+    .funcionalidade-container {
+        height: 320px;
+    }
+}
